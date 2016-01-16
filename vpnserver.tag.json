@@ -1,0 +1,14 @@
+{
+    "DryRun": false,
+    "ImageId": "ami-d05e75b8",
+    "KeyName": "mthrynn",
+    "SecurityGroupIds": [
+        "sg-42aa2c3b"
+    ],
+    "UserData": "vpn-ec2-install.sh",
+    "InstanceType": "t2.small",
+    "Monitoring": {
+        "Enabled": true
+    },
+    "SubnetId": "subnet-ff488c88"
+}
